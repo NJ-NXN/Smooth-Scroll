@@ -1,0 +1,27 @@
+.galaxy {
+    width: 100%;
+    height: auto;
+    max-width: 100vw; 
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.intro-title, .intro-content {
+    text-align: center;
+}
+
+.intro-text {
+    width: 30%;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease-in-out;
+}
+
+.intro-appear {
+    opacity: 1;
+    transform: translateY(0px);
+}
